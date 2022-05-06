@@ -1,0 +1,112 @@
+@media(min-width: 1400px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    body {
+        overflow: unset;
+    }
+    html {
+        font-size: 50%;
+    }
+    header {
+        position: fixed;
+        z-index: 999;
+        width: 100%;
+    }
+    .container {
+        height: 100%;
+        padding-top: 58px;
+        padding-bottom: 122px;
+    }
+    .header_top {
+        padding: 10px 17px;
+        gap: 0 44px;
+    }
+    .header_top-logo {
+        padding: 2px 15px;
+    }
+    .header_top-logo h1 {
+        font-size: 3rem;
+    }
+    .btn_input {
+        width: 200px;
+        padding: 0 36px;
+    }
+    .user {
+        display: none;
+    }
+    .home_music-container {
+        flex-direction: column-reverse;
+    }
+    .col-9 {
+        width: 100%;
+    }
+    .col-2 {
+        width: 38%;
+    }
+    .col-2:nth-child(5) {
+        display: none;
+    }
+    .col-3 {
+        width: 100%;
+    }
+    .sidebar_home:nth-child(2),
+    .sidebar_home-title {
+        display: none;
+    }
+    .home_menu-item {
+        padding: 3px 17px;
+    }
+    .btn_menu {
+        display: flex;
+        flex-direction: column;
+    }
+    .iconSvg {
+        width: 30px;
+        height: 30px;
+    }
+    .home_menu-item h5 {
+        font-size: 2rem;
+    }
+    .song_name {
+        font-size: 2.5rem;
+        font-weight: 900;
+        white-space: nowrap;
+    }
+    .sidebar_home-menu {
+        display: flex;
+        position: fixed;
+        top: 645px;
+        z-index: 999;
+        background-color: var(--primary-color);
+        width: 100%;
+    }
+    .song_author {
+        font-size: 1.9rem;
+    }
+    .footer_select-music {
+        display: none!important;
+    }
+    .curr_music-container {
+        width: 270px;
+        padding: 10px 4px;
+    }
+    .curr_music-content {
+        margin-left: 14px;
+    }
+    .music_widgets {
+        display: none!important;
+    }
+    .music_control {
+        padding: unset;
+    }
+    .footer_player {
+        position: fixed!important;
+        bottom: 89px;
+    }
+}
+
+@media only screen and (min-width: 740px) and (max-width: 1024px) {}
